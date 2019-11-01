@@ -4,7 +4,7 @@
   "description": "Google using advanced search queries for more accurate search results",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "serve"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "serve": "^11.2.0"
   }
 }

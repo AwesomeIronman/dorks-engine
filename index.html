@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dorks Engine</title>
+
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <!-- Container div -->
+  <div class="container">
+
+    <!-- Card div -->
+    <div class="card bg-secondary">
+      <div class="card-body">
+
+        <div class="form-group">
+          <label for="pageTitle">In Title Text:</label>
+          <input type="text" class="form-control" name="pageTitle" id="pageTitle"
+            placeholder="Title text eg. Emma Watson">
+        </div>
+
+        <button type="button" name="searchButton" id="searchButton"
+          class="btn btn-primary btn-lg btn-block" onclick="searchGoogle();">Search</button>
+
+      </div>
+    </div>
+    <!-- Close Card div -->
+
+  </div>
+  <!-- Close Container div -->
+
+  <script src="./node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+  
+  <script src="./js/index.js" type="text/javascript"></script>
+</body>
+
+</html>

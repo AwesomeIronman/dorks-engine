@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/AwesomeIronman/dorks-engine/issues"
   },
-  "homepage": "https://github.com/AwesomeIronman/dorks-engine#readme"
+  "homepage": "https://github.com/AwesomeIronman/dorks-engine#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
 }

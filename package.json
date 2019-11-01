@@ -1,7 +1,7 @@
 {
   "name": "dorks-engine",
   "version": "1.0.0",
-  "description": "Google using advanced google queries for accurate search results",
+  "description": "Google using advanced search queries for more accurate search results",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

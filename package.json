@@ -1,0 +1,24 @@
+{
+  "name": "dorks-engine",
+  "version": "1.0.0",
+  "description": "Google using advanced google queries for accurate search results",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AwesomeIronman/dorks-engine.git"
+  },
+  "keywords": [
+    "google-dorks",
+    "advanced-search",
+    "search-google-dorks"
+  ],
+  "author": "Cyrus Gracias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AwesomeIronman/dorks-engine/issues"
+  },
+  "homepage": "https://github.com/AwesomeIronman/dorks-engine#readme"
+}

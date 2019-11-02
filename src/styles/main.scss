@@ -13,6 +13,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+#content {
+  height: 100vh;
+}
+
 .btn {
   background-color: $body-bg;
   border: 1px solid $third;

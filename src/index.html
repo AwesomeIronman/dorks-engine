@@ -13,50 +13,59 @@
   <!-- Container div -->
   <div class="container">
 
-    <!-- Card div -->
-    <div class="card">
-      <div class="card-body">
+    <!-- Row div -->
+    <div class="row" id="content">
+      <div class="col-sm-12 my-auto">
 
-        <div class="form-group">
-          <label for="searchText">Search Text:</label>
-          <input type="text" class="form-control" name="searchText" id="searchText" placeholder="Text to search for"
-            autofocus autocomplete="off">
+        <!-- Card div -->
+        <div class="card card-block">
+          <div class="card-body">
+
+            <div class="form-group">
+              <label for="searchText">Search Text:</label>
+              <input type="text" class="form-control" name="searchText" id="searchText" placeholder="Text to search for"
+                autofocus autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <label for="pageTitle">Page Title:</label>
+              <input type="text" class="form-control" name="pageTitle" id="pageTitle" placeholder="Page title"
+                autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <label for="pageContent">Page Content:</label>
+              <input type="text" class="form-control" name="pageContent" id="pageContent" placeholder="Page content"
+                autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <label for="pageUrl">URL/link Text:</label>
+              <input type="text" class="form-control" name="pageUrl" id="pageUrl" placeholder="Page URL/link Text"
+                autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <label for="siteUrl">Website:</label>
+              <input type="text" class="form-control" name="siteUrl" id="siteUrl" placeholder="Website"
+                autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <label for="pageFileType">File Type:</label>
+              <input type="text" class="form-control" name="pageFileType" id="pageFileType"
+                placeholder="File Type to search for" autocomplete="off">
+            </div>
+
+            <button type="button" name="searchButton" id="searchButton" class="btn btn-lg btn-block">Search</button>
+
+          </div>
         </div>
-
-        <div class="form-group">
-          <label for="pageTitle">Page Title:</label>
-          <input type="text" class="form-control" name="pageTitle" id="pageTitle" placeholder="Page title"
-            autocomplete="off">
-        </div>
-
-        <div class="form-group">
-          <label for="pageContent">Page Content:</label>
-          <input type="text" class="form-control" name="pageContent" id="pageContent" placeholder="Page content"
-            autocomplete="off">
-        </div>
-
-        <div class="form-group">
-          <label for="pageUrl">URL/link Text:</label>
-          <input type="text" class="form-control" name="pageUrl" id="pageUrl" placeholder="Page URL/link Text"
-            autocomplete="off">
-        </div>
-
-        <div class="form-group">
-          <label for="siteUrl">Website:</label>
-          <input type="text" class="form-control" name="siteUrl" id="siteUrl" placeholder="Website" autocomplete="off">
-        </div>
-
-        <div class="form-group">
-          <label for="pageFileType">File Type:</label>
-          <input type="text" class="form-control" name="pageFileType" id="pageFileType"
-            placeholder="File Type to search for" autocomplete="off">
-        </div>
-
-        <button type="button" name="searchButton" id="searchButton" class="btn btn-lg btn-block">Search</button>
+        <!-- Close Card div -->
 
       </div>
     </div>
-    <!-- Close Card div -->
+    <!-- Close Row div -->
 
   </div>
   <!-- Close Container div -->

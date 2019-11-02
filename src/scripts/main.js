@@ -1,6 +1,10 @@
-var googleUrl = "https://www.google.com/search?q=";
+import $ from "jquery";
+import "bootstrap";
 
-function searchGoogle() {
+import "./../styles/main.scss";
+
+function searchGoogle () {
+  var googleUrl = "https://www.google.com/search?q=";
 
   var query = googleUrl + encodeURIComponent(
     $("#searchText").val() +
@@ -14,5 +18,6 @@ function searchGoogle() {
   console.log(query);
 
   window.open(query, "_blank");
-
 }
+
+$("#searchButton").click(searchGoogle);

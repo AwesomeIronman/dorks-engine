@@ -14,8 +14,25 @@
   <div class="container">
 
     <!-- Row div -->
-    <div class="row" id="content">
-      <div class="col-sm-12 my-auto">
+    <div class="row" id="row">
+
+      <!-- Page Info sidebar -->
+      <div class="col-md-2 my-auto" id="sidebar">
+
+        <div class="card card-block h-100">
+          <div class="card-header">
+            Dorks Engine
+          </div>
+
+          <div class="card-body">
+            Supercharge your Google queries with Google dorks!
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Query Inputs -->
+      <div class="col-sm-12 col-md-10 my-auto">
 
         <!-- Card div -->
         <div class="card card-block">
@@ -57,7 +74,7 @@
                 placeholder="File Type to search for" autocomplete="off">
             </div>
 
-            <button name="searchButton" id="searchButton" class="btn btn-lg btn-block">Search</button>
+            <input type="submit" name="searchButton" id="searchButton" class="btn btn-lg btn-block" value="Search">
 
           </div>
         </div>

@@ -11,24 +11,18 @@
 
 <body>
   <!-- Container div -->
-  <div class="container">
+  <div class="container-fluid">
 
     <!-- Row div -->
     <div class="row" id="row">
 
-      <!-- Page Info sidebar -->
+      <!-- Page Info Sidebar -->
       <div class="col-md-2 my-auto" id="sidebar">
 
-        <div class="card card-block h-100">
-          <div class="card-header">
-            Dorks Engine
-          </div>
+            <h1>Dorks Engine</h1>
 
-          <div class="card-body">
-            Supercharge your Google queries with Google dorks!
-          </div>
-        </div>
-        
+            <p>Supercharge your Google queries with Google dorks!</p>
+
       </div>
 
       <!-- Query Inputs -->
@@ -38,43 +32,81 @@
         <div class="card card-block">
           <div class="card-body">
 
-            <div class="form-group">
-              <label for="searchText">Search Text:</label>
-              <input type="text" class="form-control" name="searchText" id="searchText" placeholder="Text to search for"
-                autofocus autocomplete="off">
+            <div class="row">
+              <div class="col-md-12">
+
+                <div class="form-group">
+                  <label for="searchText">Search Text:</label>
+                  <input type="text" class="form-control" name="searchText" id="searchText"
+                    placeholder="Text to search for" autofocus autocomplete="off">
+                </div>
+
+              </div>
             </div>
 
-            <div class="form-group">
-              <label for="pageTitle">Page Title:</label>
-              <input type="text" class="form-control" name="pageTitle" id="pageTitle" placeholder="Page title"
-                autocomplete="off">
+            <div class="row">
+              <div class="col-md-6">
+
+                <div class="form-group">
+                  <label for="pageTitle">Page Title:</label>
+                  <input type="text" class="form-control" name="pageTitle" id="pageTitle" placeholder="Page title"
+                    autocomplete="off">
+                </div>
+
+              </div>
+              <div class="col-md-6">
+
+                <div class="form-group">
+                  <label for="pageUrl">URL/link Text:</label>
+                  <input type="text" class="form-control" name="pageUrl" id="pageUrl" placeholder="Page URL/link Text"
+                    autocomplete="off">
+                </div>
+
+              </div>
             </div>
 
-            <div class="form-group">
-              <label for="pageContent">Page Content:</label>
-              <input type="text" class="form-control" name="pageContent" id="pageContent" placeholder="Page content"
-                autocomplete="off">
+            <div class="row">
+              <div class="col-md-6">
+
+                <div class="form-group">
+                  <label for="pageContent">Page Content:</label>
+                  <input type="text" class="form-control" name="pageContent" id="pageContent" placeholder="Page content"
+                    autocomplete="off">
+                </div>
+
+              </div>
+              <div class="col-md-6">
+
+                <div class="form-group">
+                  <label for="siteUrl">Website:</label>
+                  <input type="text" class="form-control" name="siteUrl" id="siteUrl" placeholder="Website"
+                    autocomplete="off">
+                </div>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+
+                <div class="form-group">
+                  <label for="pageFileType">File Type:</label>
+                  <input type="text" class="form-control" name="pageFileType" id="pageFileType"
+                    placeholder="File Type to search for" autocomplete="off">
+                </div>
+
+              </div>
             </div>
 
-            <div class="form-group">
-              <label for="pageUrl">URL/link Text:</label>
-              <input type="text" class="form-control" name="pageUrl" id="pageUrl" placeholder="Page URL/link Text"
-                autocomplete="off">
-            </div>
+            <div class="row">
+              <div class="col-md-12">
 
-            <div class="form-group">
-              <label for="siteUrl">Website:</label>
-              <input type="text" class="form-control" name="siteUrl" id="siteUrl" placeholder="Website"
-                autocomplete="off">
-            </div>
+                <div class="form-group">
+                  <input type="submit" name="searchButton" id="searchButton" class="btn btn-lg btn-block"
+                    value="Search">
+                </div>
 
-            <div class="form-group">
-              <label for="pageFileType">File Type:</label>
-              <input type="text" class="form-control" name="pageFileType" id="pageFileType"
-                placeholder="File Type to search for" autocomplete="off">
+              </div>
             </div>
-
-            <input type="submit" name="searchButton" id="searchButton" class="btn btn-lg btn-block" value="Search">
 
           </div>
         </div>

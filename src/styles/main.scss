@@ -3,14 +3,15 @@ $body-bg: #282a36;
 $body-color: #ff79c6;
 $secondary: #44475a;
 
-@import "node_modules/bootstrap/scss/bootstrap";
-
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+$font-stack: 'Raleway', sans-serif;
+
+@import "node_modules/bootstrap/scss/bootstrap";
 
 $third: #6272a4;
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: $font-stack;
 }
 
 #row {

@@ -3,22 +3,14 @@ $body-bg: #282a36;
 $body-color: #ff79c6;
 $secondary: #44475a;
 
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-$font-stack: 'Raleway',
-sans-serif;
-
 @import "node_modules/bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 $third: #6272a4;
 
 body {
-  font-family: $font-stack;
-}
-
-@media (max-width:992px) {
-  .card {
-    border-width: 0;
-  }
+  font-family: 'Raleway', sans-serif;
 }
 
 #row {
